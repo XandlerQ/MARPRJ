@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="pppp.Right" size="0.029575 0.079433"/>
+        <ImageTarget name="pppp.Left" size="0.029575 0.079179"/>
+        <ImageTarget name="pppp.Back" size="0.059500 0.079734"/>
+        <ImageTarget name="pppp.Front" size="0.059500 0.079209"/>
+        <ImageTarget name="pppp.Bottom" size="0.059500 0.029550"/>
+        <ImageTarget name="pppp.Top" size="0.059500 0.029599"/>
+        <ImageTarget name="ppp.Right" size="0.059150 0.158672"/>
+        <ImageTarget name="ppp.Left" size="0.059150 0.158170"/>
+        <ImageTarget name="ppp.Back" size="0.119000 0.159167"/>
+        <ImageTarget name="ppp.Front" size="0.119000 0.158292"/>
+        <ImageTarget name="ppp.Bottom" size="0.119000 0.059219"/>
+        <ImageTarget name="ppp.Top" size="0.119000 0.059219"/>
+        <MultiTarget name="pppp">
+            <Part name="pppp.Left" translation="-0.029750000685453415 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="pppp.Right" translation="0.029750000685453415 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="pppp.Front" translation="0 0 0.01478749979287386" rotation="AD: 1 0 0 0"/>
+            <Part name="pppp.Back" translation="0 0 -0.01478749979287386" rotation="AD: 0 1 0 180"/>
+            <Part name="pppp.Top" translation="0 0.03968749940395355 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="pppp.Bottom" translation="0 -0.03968749940395355 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="ppp">
+            <Part name="ppp.Left" translation="-0.05950000137090683 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ppp.Right" translation="0.05950000137090683 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ppp.Front" translation="0 0 0.02957499958574772" rotation="AD: 1 0 0 0"/>
+            <Part name="ppp.Back" translation="0 0 -0.02957499958574772" rotation="AD: 0 1 0 180"/>
+            <Part name="ppp.Top" translation="0 0.0793749988079071 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="ppp.Bottom" translation="0 -0.0793749988079071 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
